@@ -1,0 +1,488 @@
+@media (min-width: 1921px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+@media (max-width: 1920px) {
+  .container {
+    max-width: 1400px;
+  }
+  .header {
+    padding: 25.5px 0 25.5px;
+    &__logo {
+      gap: 18px;
+      &-image {
+        width: 42px;
+        height: 42px;
+      }
+      &-title {
+        font-size: 44px;
+      }
+    }
+    &__menu {
+      gap: 150px;
+      display: flex;
+      &-list {
+        gap: 105px;
+      }
+      &-item {
+        font-size: 24px;
+      }
+      &-btn {
+        padding: 16px 22px;
+        font-size: 16px;
+      }
+    }
+  }
+  .promo {
+    margin-top: 96px;
+    &__info {
+      gap: 72px;
+      flex-direction: row;
+    }
+    &__block {
+      gap: 72px;
+    }
+    &__title {
+      font-size: 120px;
+    }
+    &__subtitle {
+      font-size: 80px;
+    }
+    &__descr {
+      font-size: 24px;
+    }
+    &__btn {
+      width: 348px;
+      height: 62px;
+      font-size: 24px;
+      padding: 18px 24px;
+      border-radius: 18px;
+    }
+    &__image {
+      display: block;
+      flex: 1;
+      position: relative;
+      & img {
+        width: 114%;
+      }
+    }
+  }
+  .advantages {
+    margin: 96px 0 84px;
+    &__bg-text {
+      font-size: 213px;
+      top: 85px;
+    }
+    &__info {
+      margin: 0 237px;
+      gap: 96px;
+    }
+    &__title {
+      font-size: 80px;
+    }
+    &__descr {
+      margin: 24px 123.5px 0;
+      font-size: 24px;
+    }
+    &__cards {
+      gap: 30px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__card {
+      padding: 30px;
+      min-height: 332px;
+      gap: 24px;
+      &-title {
+        font-size: 24px;
+      }
+      &-descr {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 1700px) {
+  .advantages {
+    &__bg-text {
+      font-size: 183px;
+    }
+  }
+}
+@media (max-width: 1500px) {
+  .container {
+    max-width: 1200px;
+  }
+  .advantages {
+    &__bg-text {
+      font-size: 153px;
+    }
+    &__info {
+      margin: 0px 172px;
+    }
+    &__title {
+      font-size: 75px;
+    }
+    &__descr {
+      font-size: 21px;
+    }
+    &__card {
+      &-title {
+        font-size: 21px;
+      }
+    }
+  }
+}
+@media (max-width: 1341px) {
+  .container {
+    max-width: 1000px;
+  }
+  .header {
+    &__logo {
+      &-image {
+        width: 35px;
+        height: 35px;
+      }
+      &-title {
+        font-size: 38px;
+      }
+    }
+    &__menu {
+      gap: 80px;
+      &-item {
+        font-size: 22px;
+      }
+      &-list {
+        gap: 65px;
+      }
+    }
+  }
+  .promo {
+    &__info {
+      gap: 37px;
+    }
+    &__title {
+      font-size: 90px;
+    }
+    &__subtitle {
+      font-size: 60px;
+    }
+    &__descr {
+      font-size: 18px;
+    }
+    &__btn {
+      width: 271px;
+      font-size: 17px;
+      padding: 16px 20px;
+    }
+  }
+  .advantages {
+    &__bg-text {
+      font-size: 137px;
+      top: 77px;
+    }
+    &__info {
+      margin: 0 174px;
+      gap: 65px;
+    }
+    &__title {
+      font-size: 57px;
+    }
+    &__descr {
+      margin: 24px auto 0;
+      font-size: 17px;
+    }
+    &__card {
+      min-height: 295px;
+      &-title {
+        font-size: 17px;
+      }
+      &-descr {
+        font-size: 13px;
+      }
+    }
+  }
+}
+@media (max-width: 1142px) {
+  .container {
+    max-width: 850px;
+  }
+  .header {
+    &__logo {
+      gap: 13px;
+      &-image {
+        width: 30px;
+        height: 30px;
+      }
+      &-title {
+        font-size: 32px;
+      }
+    }
+    &__menu {
+      gap: 50px;
+      &-list {
+        gap: 38px;
+      }
+      &-item {
+        font-size: 18px;
+      }
+      &-btn {
+        padding: 11px 18px;
+        font-size: 12px;
+      }
+    }
+  }
+  .promo {
+    &__info {
+      gap: 37px;
+    }
+    &__title {
+      font-size: 76px;
+    }
+    &__subtitle {
+      font-size: 51px;
+    }
+    &__descr {
+      font-size: 15px;
+    }
+    &__btn {
+      width: 213px;
+      height: 46px;
+      font-size: 15px;
+      padding: 10px;
+    }
+  }
+  .advantages {
+    &__bg-text {
+      font-size: 122px;
+    }
+    &__info {
+      margin: 0 136px;
+      gap: 63px;
+    }
+    &__title {
+      font-size: 51px;
+    }
+    &__descr {
+      font-size: 15px;
+    }
+    &__card {
+      min-height: 295px;
+      &-title {
+        font-size: 15px;
+      }
+      &-descr {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 972px) {
+  .container {
+    max-width: 680px;
+  }
+  .promo {
+    margin-top: 60px;
+    &__info {
+      gap: 37px;
+    }
+    &__title {
+      font-size: 65px;
+    }
+    &__subtitle {
+      font-size: 44px;
+    }
+    &__descr {
+      font-size: 14px;
+    }
+    &__btn {
+      width: 195px;
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  .advantages {
+    margin: 60px 0 65px;
+    &__bg-text {
+      display: none;
+    }
+    &__info {
+      margin: 0 88px;
+      gap: 50px;
+    }
+    &__title {
+      font-size: 44px;
+    }
+    &__descr {
+      font-size: 14px;
+    }
+    &__cards {
+      gap: 20px;
+    }
+    &__card {
+      min-height: 280px;
+      &-title {
+        font-size: 14px;
+      }
+      &-descr {
+        font-size: 13px;
+      }
+    }
+  }
+}
+@media (max-width: 764px) {
+  .container {
+    max-width: 570px;
+  }
+  .header {
+    &__logo {
+      gap: 9px;
+      &-image {
+        width: 21px;
+        height: 21px;
+      }
+      &-title {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .promo {
+    margin-top: 34px;
+    &__info {
+      gap: 0;
+      flex-direction: column-reverse;
+    }
+    &__block {
+      gap: 30px;
+    }
+    &__title {
+      font-size: 98px;
+    }
+    &__subtitle {
+      font-size: 67px;
+    }
+    &__descr {
+      font-size: 16px;
+    }
+    &__btn {
+      width: 100%;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 9px;
+    }
+    &__image {
+      display: flex;
+      justify-content: center;
+      & img {
+        width: 92%;
+        margin-left: 42px;
+      }
+    }
+  }
+  .advantages {
+    margin: 60px 0 65px;
+    &__bg-text {
+      display: none;
+    }
+    &__info {
+      margin: 0 auto;
+      gap: 50px;
+    }
+    &__title {
+      font-size: 44px;
+    }
+    &__descr {
+      font-size: 16px;
+    }
+    &__cards {
+      gap: 20px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__card {
+      min-height: 280px;
+      &-title {
+        font-size: 16px;
+      }
+      &-descr {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 628px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .header {
+    padding: 12px 0 12px;
+    &__menu {
+      display: none;
+    }
+  }
+  .promo {
+    padding: 0 15px;
+    &__title {
+      font-size: 52px;
+    }
+    &__subtitle {
+      font-size: 36px;
+    }
+    &__btn {
+      padding: 15px 50px;
+    }
+  }
+  .advantages {
+    margin: 60px 0 36px;
+    &__bg-text {
+      display: none;
+    }
+    &__info {
+      margin: 0 auto;
+      gap: 24px;
+    }
+    &__texts {
+      padding: 0 15px;
+    }
+    &__title {
+      font-size: 36px;
+    }
+    &__descr {
+      margin: 12px auto 0;
+    }
+    &__cards {
+      margin: 0 15px;
+      gap: 15px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__card {
+      min-height: 196px;
+      padding: 21px;
+      gap: 18px;
+      &-descr {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .promo {
+    &__title {
+      font-size: 44px;
+    }
+    &__subtitle {
+      font-size: 31px;
+    }
+    &__btn {
+      padding: 15px;
+    }
+  }
+  .advantages {
+    &__title {
+      font-size: 31px;
+    }
+  }
+}

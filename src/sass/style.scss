@@ -1,0 +1,33 @@
+@import "adaptive";
+@import "base/variables.scss";
+@import "blocks/header.scss";
+@import "blocks/promo.scss";
+@import "blocks/advantages.scss";
+
+@font-face {
+  font-family: "Involve";
+  src: url("../fonts/Involve-Medium.ttf");
+}
+@font-face {
+  font-family: "Evolventa";
+  src: url("../fonts/Evolventa-Regular.ttf");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: $main-black;
+  margin: 0;
+  color: $white-color;
+  font-family: "Evolventa";
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}

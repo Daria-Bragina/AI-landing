@@ -1,0 +1,62 @@
+.header {
+  &__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  &__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &-title {
+      font-family: "Involve";
+      font-weight: 400;
+      color: $white-color;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+  &__menu {
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    &-list {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+    }
+    &-item {
+      a {
+        text-decoration: none;
+        color: $white-color;
+        &:hover {
+          color: $hover;
+        }
+        &:active {
+          color: $active;
+        }
+      }
+      opacity: 60%;
+    }
+    &-btn {
+      width: 184;
+      height: 51;
+      border: 1px solid $white-color;
+      border-radius: 15px;
+      color: $white-color;
+      background-color: $main-black;
+      font-family: "Evolventa";
+      cursor: pointer;
+      &:hover {
+        background-color: $hover;
+        border-color: $hover;
+      }
+      &:active {
+        background-color: $active;
+        border-color: $active;
+        color: $main-black;
+      }
+    }
+  }
+}

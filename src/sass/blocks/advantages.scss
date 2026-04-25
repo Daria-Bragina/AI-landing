@@ -1,0 +1,64 @@
+.advantages {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  &__bg-text {
+    position: absolute;
+    width: 100%;
+
+    text-align: center;
+    // left: 50%;
+    // transform: translateX(-50%) scale(0.98);
+    transform-origin: center;
+    font-family: "Involve";
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.01);
+    pointer-events: none;
+    line-height: 0.9;
+    letter-spacing: 0.02rem;
+    z-index: -1;
+  }
+  &__info {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  &__texts {
+    align-items: center;
+    text-align: center;
+  }
+  &__title {
+    margin: 0;
+    font-family: "Involve";
+    font-weight: 500;
+
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+  }
+  &__descr {
+    font-family: "Evolventa";
+    line-height: 1.1;
+    & span {
+      color: $hover;
+    }
+  }
+  &__cards {
+    display: grid;
+  }
+  &__card {
+    box-sizing: border-box;
+    background-color: $field;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    &-title {
+      font-family: "Evolventa";
+      line-height: 1.1;
+    }
+    &-descr {
+      font-family: "Evolventa";
+      line-height: 1.1;
+    }
+  }
+}
