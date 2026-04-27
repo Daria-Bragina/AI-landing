@@ -2,6 +2,136 @@
   .container {
     max-width: 1400px;
   }
+  .modal {
+    padding: 30px 60px 60px;
+    max-height: 768px;
+    max-width: 688px;
+    &__info {
+      gap: 30px;
+    }
+    &__title {
+      font-size: 44px;
+    }
+    &__subtitle {
+      font-size: 24px;
+    }
+    &__form {
+      & input {
+        font-size: 24px;
+        padding: 18px 24px;
+      }
+    }
+    &__btn {
+      font-size: 24px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+    &__close {
+      height: 24px;
+      &::before,
+      &::after {
+        content: "";
+        width: 24px;
+      }
+    }
+  }
+  .container {
+    max-width: 1400px;
+  }
+  .header {
+    padding: 25.5px 0 25.5px;
+    &__logo {
+      gap: 18px;
+      &-image {
+        width: 42px;
+        height: 42px;
+      }
+      &-title {
+        font-size: 44px;
+      }
+    }
+    &__menu {
+      gap: 150px;
+      display: flex;
+      &-list {
+        gap: 105px;
+      }
+      &-item {
+        font-size: 24px;
+      }
+      &-btn {
+        padding: 16px 22px;
+        font-size: 16px;
+      }
+    }
+  }
+  .promo {
+    margin-top: 96px;
+    &__info {
+      gap: 72px;
+      flex-direction: row;
+    }
+    &__block {
+      gap: 72px;
+    }
+    &__title {
+      font-size: 120px;
+    }
+    &__subtitle {
+      font-size: 80px;
+    }
+    &__descr {
+      font-size: 24px;
+    }
+    &__btn {
+      width: 348px;
+      height: 62px;
+      font-size: 24px;
+      padding: 18px 24px;
+      border-radius: 18px;
+    }
+    &__image {
+      display: block;
+      flex: 1;
+      position: relative;
+      & img {
+        width: 114%;
+      }
+    }
+  }
+  .advantages {
+    margin: 96px 0 84px;
+    &__bg-text {
+      font-size: 213px;
+      top: 85px;
+    }
+    &__info {
+      margin: 0 237px;
+      gap: 96px;
+    }
+    &__title {
+      font-size: 80px;
+    }
+    &__descr {
+      margin: 24px 123.5px 0;
+      font-size: 24px;
+    }
+    &__cards {
+      gap: 30px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__card {
+      padding: 30px;
+      min-height: 332px;
+      gap: 24px;
+      &-title {
+        font-size: 24px;
+      }
+      &-descr {
+        font-size: 16px;
+      }
+    }
+  }
 }
 @media (max-width: 1920px) {
   .modal {
@@ -166,7 +296,7 @@
     }
   }
   .modal {
-    max-height: 650px;
+    max-height: 685px;
     max-width: 550px;
     &__title {
       font-size: 34px;
@@ -371,7 +501,7 @@
   .advantages {
     margin: 60px 0 65px;
     &__bg-text {
-      display: none;
+      font-size: 85px;
     }
     &__info {
       margin: 0 88px;
@@ -397,7 +527,7 @@
     }
   }
   .modal {
-    max-height: 510px;
+    max-height: 543px;
     max-width: 400px;
     padding: 15px;
     &__info {
@@ -484,7 +614,7 @@
   .advantages {
     margin: 60px 0 65px;
     &__bg-text {
-      display: none;
+      font-size: 79px;
     }
     &__info {
       margin: 0 auto;
@@ -538,7 +668,8 @@
   .advantages {
     margin: 60px 0 36px;
     &__bg-text {
-      display: none;
+      font-size: 77px;
+      top: -54px;
     }
     &__info {
       margin: 0 auto;
@@ -584,7 +715,12 @@
     &__title {
       font-size: 31px;
     }
+    &__bg-text {
+      font-size: 45px;
+      top: -34px;
+    }
   }
+
   .modal {
     max-height: 441px;
     max-width: 280px;
