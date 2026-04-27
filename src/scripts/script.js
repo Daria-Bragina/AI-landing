@@ -64,10 +64,15 @@ button.addEventListener("click", (e) => {
 
 const burger = document.querySelector(".header__burger");
 const menu = document.querySelector(".header__menu");
+const promo = document.querySelector(".promo");
+const advantages = document.querySelector(".advantages");
 
 burger.addEventListener("click", () => {
   burger.classList.toggle("active");
   menu.classList.toggle("active");
+
+  promo.classList.toggle("blur");
+  advantages.classList.toggle("blur");
 });
 
 menu.addEventListener("click", (e) => {
@@ -77,5 +82,8 @@ menu.addEventListener("click", (e) => {
   ) {
     burger.classList.remove("active");
     menu.classList.remove("active");
+
+    promo.classList.remove("blur");
+    advantages.classList.remove("blur");
   }
 });

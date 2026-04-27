@@ -670,7 +670,6 @@
         }
       }
     }
-
     &__burger {
       margin: auto 0;
       z-index: 5;
@@ -718,6 +717,12 @@
         }
       }
     }
+  }
+
+  .promo.blur,
+  .advantages.blur {
+    filter: blur(8px);
+    transition: filter 0.3s ease;
   }
 
   .promo {
