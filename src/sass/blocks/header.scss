@@ -1,4 +1,9 @@
 .header {
+  z-index: 4;
+  background-color: $main-black;
+  top: 0;
+  width: 100%;
+  position: fixed;
   &__navigation {
     display: flex;
     flex-direction: row;
@@ -18,13 +23,12 @@
     }
   }
   &__menu {
-    flex-direction: row;
     align-items: center;
     box-sizing: border-box;
     &-list {
       display: flex;
-      flex-direction: row;
       list-style-type: none;
+      margin: 0;
     }
     &-item {
       a {
@@ -40,23 +44,8 @@
       opacity: 60%;
     }
     &-btn {
-      width: 184;
-      height: 51;
-      border: 1px solid $white-color;
-      border-radius: 15px;
-      color: $white-color;
-      background-color: $main-black;
       font-family: "Evolventa";
       cursor: pointer;
-      &:hover {
-        background-color: $hover;
-        border-color: $hover;
-      }
-      &:active {
-        background-color: $active;
-        border-color: $active;
-        color: $main-black;
-      }
     }
   }
 }

@@ -61,3 +61,21 @@ button.addEventListener("click", (e) => {
   input.classList.remove("error");
   button.disabled = true;
 });
+
+const burger = document.querySelector(".header__burger");
+const menu = document.querySelector(".header__menu");
+
+burger.addEventListener("click", () => {
+  burger.classList.toggle("active");
+  menu.classList.toggle("active");
+});
+
+menu.addEventListener("click", (e) => {
+  if (
+    e.target.classList.contains("header__menu-link") ||
+    e.target.classList.contains("header__menu-btn")
+  ) {
+    burger.classList.remove("active");
+    menu.classList.remove("active");
+  }
+});

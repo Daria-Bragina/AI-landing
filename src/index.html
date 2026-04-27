@@ -8,138 +8,149 @@
     <link rel="stylesheet" href="styles/style.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="header__navigation">
-          <div class="header__logo">
-            <img class="header__logo-image" src="images/logo.svg" alt="logo" />
-            <a class="header__logo-title" href="#">AI</a>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="header__navigation">
+            <div class="header__logo">
+              <img
+                class="header__logo-image"
+                src="images/logo.svg"
+                alt="logo"
+              />
+              <a class="header__logo-title" href="#">AI</a>
+            </div>
+            <div class="header__burger">
+              <span></span>
+            </div>
+            <div class="header__menu">
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a href="#home" class="header__menu-link">Главная</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#advantages" class="header__menu-link"
+                    >Преимущество</a
+                  >
+                </li>
+              </ul>
+              <button class="header__menu-btn">Получить доступ</button>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="promo" id="home">
+        <div class="container">
+          <div class="promo__info">
+            <div class="promo__block">
+              <div class="promo__texts">
+                <h1 class="promo__title">Нейросеть</h1>
+                <h2 class="promo__subtitle">может все!</h2>
+                <p class="promo__descr">
+                  Мы уже живем в этой удивительной реальности
+                </p>
+              </div>
+              <div class="promo__action">
+                <button class="promo__btn">Погрузиться в новый мир</button>
+              </div>
+            </div>
+            <div class="promo__image">
+              <img src="images/promo.png" alt="promo__image" />
+            </div>
           </div>
-          <div class="header__menu">
-            <ul class="header__menu-list">
-              <li class="header__menu-item">
-                <a href="#home" class="header__menu-link">Главная</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#advantages" class="header__menu-link">Преимущество</a>
-              </li>
-            </ul>
-            <button class="header__menu-btn">Получить доступ</button>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <section class="promo" id="home">
-      <div class="container">
-        <div class="promo__info">
-          <div class="promo__block">
-            <div class="promo__texts">
-              <h1 class="promo__title">Нейросеть</h1>
-              <h2 class="promo__subtitle">может все!</h2>
-              <p class="promo__descr">
-                Мы уже живем в этой удивительной реальности
+        </div>
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="advantages__bg-text">Преимущества</div>
+        <div class="container">
+          <div class="advantages__info">
+            <div class="advantages__texts">
+              <h2 class="advantages__title">Преимущества курса</h2>
+              <p class="advantages__descr">
+                Поможем создать <span>корректный промт</span>, чтобы вы получили
+                максимально корректный вариант под ваши нужды!
               </p>
             </div>
-            <div class="promo__action">
-              <button class="promo__btn">Погрузиться в новый мир</button>
-            </div>
-          </div>
-          <div class="promo__image">
-            <img src="images/promo.png" alt="promo__image" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="advantages" id="advantages">
-      <div class="advantages__bg-text">Преимущества</div>
-      <div class="container">
-        <div class="advantages__info">
-          <div class="advantages__texts">
-            <h2 class="advantages__title">Преимущества курса</h2>
-            <p class="advantages__descr">
-              Поможем создать <span>корректный промт</span>, чтобы вы получили
-              максимально корректный вариант под ваши нужды!
-            </p>
-          </div>
-          <div class="advantages__cards">
-            <div class="advantages__card">
-              <div class="advantages__image">
-                <img src="images/goal.svg" alt="goal" />
+            <div class="advantages__cards">
+              <div class="advantages__card">
+                <div class="advantages__image">
+                  <img src="images/goal.svg" alt="goal" />
+                </div>
+                <div class="advantages__card-title">Хотите открыть бизнес?</div>
+                <div class="advantages__card-descr">
+                  Нейросеть поможет составить бизнес-план, рассчитать расходы,
+                  нарисовать логотип, найти место получше и станет вашим главным
+                  деловым партнером
+                </div>
               </div>
-              <div class="advantages__card-title">Хотите открыть бизнес?</div>
-              <div class="advantages__card-descr">
-                Нейросеть поможет составить бизнес-план, рассчитать расходы,
-                нарисовать логотип, найти место получше и станет вашим главным
-                деловым партнером
-              </div>
-            </div>
 
-            <div class="advantages__card">
-              <div class="advantages__image">
-                <img src="images/suitcase.svg" alt="suitcase" />
+              <div class="advantages__card">
+                <div class="advantages__image">
+                  <img src="images/suitcase.svg" alt="suitcase" />
+                </div>
+                <div class="advantages__card-title">Мечтаете об отпуске?</div>
+                <div class="advantages__card-descr">
+                  Нейросеть поможет найти место по вашим запросам, выбрать
+                  наилучший сезон, собрать чемодан, подыскать где остановиться и
+                  сделать ваш отпуск незабываемым
+                </div>
               </div>
-              <div class="advantages__card-title">Мечтаете об отпуске?</div>
-              <div class="advantages__card-descr">
-                Нейросеть поможет найти место по вашим запросам, выбрать
-                наилучший сезон, собрать чемодан, подыскать где остановиться и
-                сделать ваш отпуск незабываемым
-              </div>
-            </div>
 
-            <div class="advantages__card">
-              <div class="advantages__image">
-                <img src="images/check-list.svg" alt="check-list" />
+              <div class="advantages__card">
+                <div class="advantages__image">
+                  <img src="images/check-list.svg" alt="check-list" />
+                </div>
+                <div class="advantages__card-title">
+                  Вы студент и нуждаетесь в помощи в учебе?
+                </div>
+                <div class="advantages__card-descr">
+                  Нет проблем! Нейросеть — ваш лучший друг, который поможет
+                  написать курсовую, решить сложный тест и подготовиться к
+                  экзаменам
+                </div>
               </div>
-              <div class="advantages__card-title">
-                Вы студент и нуждаетесь в помощи в учебе?
-              </div>
-              <div class="advantages__card-descr">
-                Нет проблем! Нейросеть — ваш лучший друг, который поможет
-                написать курсовую, решить сложный тест и подготовиться к
-                экзаменам
-              </div>
-            </div>
 
-            <div class="advantages__card">
-              <div class="advantages__image">
-                <img src="images/mental-health.svg" alt="mental-health" />
-              </div>
-              <div class="advantages__card-title">
-                Интересует здоровый образ жизни?
-              </div>
-              <div class="advantages__card-descr">
-                Нейросеть поделится советами по сбалансированному питанию,
-                безопасным тренировкам и поддержке мотивации
+              <div class="advantages__card">
+                <div class="advantages__image">
+                  <img src="images/mental-health.svg" alt="mental-health" />
+                </div>
+                <div class="advantages__card-title">
+                  Интересует здоровый образ жизни?
+                </div>
+                <div class="advantages__card-descr">
+                  Нейросеть поделится советами по сбалансированному питанию,
+                  безопасным тренировкам и поддержке мотивации
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="overlay">
-      <div class="modal" id="modal">
-        <div class="modal__info">
-          <div class="modal__close"></div>
-          <div class="modal__texts">
-            <div class="modal__title">Овладей нейросетями!</div>
-            <div class="modal__subtitle">
-              Получи в подарок доступ ко всем курсам
+      <div class="overlay">
+        <div class="modal" id="modal">
+          <div class="modal__info">
+            <div class="modal__close"></div>
+            <div class="modal__texts">
+              <div class="modal__title">Овладей нейросетями!</div>
+              <div class="modal__subtitle">
+                Получи в подарок доступ ко всем курсам
+              </div>
             </div>
+            <div class="modal__image">
+              <img src="images/modal.png" alt="modal__image" />
+            </div>
+            <form action="#" class="modal__form">
+              <input
+                class=""
+                name="email"
+                placeholder="Введите e-mail"
+                type="email"
+              />
+              <span class="input-error">ошибка</span>
+            </form>
+            <button class="modal__btn">Получить доступ</button>
           </div>
-          <div class="modal__image">
-            <img src="images/modal.png" alt="modal__image" />
-          </div>
-          <form action="#" class="modal__form">
-            <input
-              class=""
-              name="email"
-              placeholder="Введите e-mail"
-              type="email"
-            />
-            <span class="input-error">ошибка</span>
-          </form>
-          <button class="modal__btn">Получить доступ</button>
         </div>
       </div>
     </div>
