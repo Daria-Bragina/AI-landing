@@ -4,6 +4,39 @@
   }
 }
 @media (max-width: 1920px) {
+  .modal {
+    padding: 30px 60px 60px;
+    max-height: 768px;
+    max-width: 688px;
+    &__info {
+      gap: 30px;
+    }
+    &__title {
+      font-size: 44px;
+    }
+    &__subtitle {
+      font-size: 24px;
+    }
+    &__form {
+      & input {
+        font-size: 24px;
+        padding: 18px 24px;
+      }
+    }
+    &__btn {
+      font-size: 24px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+    &__close {
+      height: 24px;
+      &::before,
+      &::after {
+        content: "";
+        width: 24px;
+      }
+    }
+  }
   .container {
     max-width: 1400px;
   }
@@ -130,6 +163,16 @@
       &-title {
         font-size: 21px;
       }
+    }
+  }
+  .modal {
+    max-height: 650px;
+    max-width: 550px;
+    &__title {
+      font-size: 34px;
+    }
+    &__subtitle {
+      font-size: 19px;
     }
   }
 }
@@ -276,6 +319,29 @@
       }
     }
   }
+  .modal {
+    max-height: 600px;
+    max-width: 524px;
+    &__info {
+      gap: 20px;
+    }
+    &__title {
+      font-size: 30px;
+      text-align: center;
+    }
+    &__subtitle {
+      text-align: center;
+      font-size: 17px;
+    }
+    &__form {
+      & input {
+        font-size: 20px;
+      }
+    }
+    &__btn {
+      font-size: 20px;
+    }
+  }
 }
 
 @media (max-width: 972px) {
@@ -327,6 +393,40 @@
       }
       &-descr {
         font-size: 13px;
+      }
+    }
+  }
+  .modal {
+    max-height: 510px;
+    max-width: 400px;
+    padding: 15px;
+    &__info {
+      gap: 15px;
+    }
+    &__title {
+      font-size: 30px;
+    }
+    &__subtitle {
+      text-align: center;
+      font-size: 16px;
+    }
+    &__form {
+      & input {
+        font-size: 16px;
+        padding: 12px 16px;
+      }
+    }
+    &__btn {
+      font-size: 16px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+    &__close {
+      height: 18px;
+      &::before,
+      &::after {
+        content: "";
+        width: 18px;
       }
     }
   }
@@ -483,6 +583,37 @@
   .advantages {
     &__title {
       font-size: 31px;
+    }
+  }
+  .modal {
+    max-height: 441px;
+    max-width: 280px;
+    padding: 15px;
+    &__title {
+      font-size: 30px;
+    }
+    &__subtitle {
+      text-align: center;
+      font-size: 16px;
+    }
+    &__form {
+      & input {
+        font-size: 16px;
+        padding: 9px;
+      }
+    }
+    &__btn {
+      font-size: 16px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+    }
+    &__close {
+      height: 18px;
+      &::before,
+      &::after {
+        content: "";
+        width: 18px;
+      }
     }
   }
 }
